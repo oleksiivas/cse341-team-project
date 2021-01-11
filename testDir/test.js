@@ -1,1 +1,0 @@
-var testJS = "JavaScript";
