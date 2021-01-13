@@ -14,8 +14,11 @@ router.post('/',(req, res, next) => {
     res.render('pages/prove01DisplayOutput', { 
         title: 'Prove Assignment 1 Display', 
         path: '/prove01Form', // For pug, EJS
-        data1: req.body.input1,
-        data2: req.body.input2,
+        fname: req.body.fname,
+        lname: req.body.lname,
+        email: req.body.email,
+        address: req.body.address,
+        phone: req.body.pnumber,
         activeTA03: true, // For HBS
         contentCSS: true, // For HBS
     });
