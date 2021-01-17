@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../../includes/header.ejs %>
+    <style>
+        .button1 {background-color: #f44336;}
+      .input1 {color: black;}
+    </style>
+</head>
+
+<body>
+  <% include ../../includes/nav.ejs %>
+<div class="jumbotron text-center">
+  <div class="container">
+    <h1><%= title %></h1>
+    <img src="/images/book_review.jpg" alt="BYU Idaho logo">
+    <p>Thank you for submiting your book review form!</p>
+
+    <%
+
+      reviews.forEach(review =>
+      {
+        %>
+        <hr>
+         <p> Author: <%= review.author %></p>
+         <p> Book: <%= review.book %></p>
+         <p> Review: <%= review.review %> </p>
+        <%
+      });
+    %>
+
+    <form action="/vasiukProve02" method="GET">
+       <p> <button class="button1" type="submit">Add another review</button> </p>
+    </form>
+
+  </div>
+</div>
+<div class="container">
+  
+</div>
+
+
+</body>
+</html>
