@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <% include ../../includes/header.ejs %>
+  <style>
+    table, th, td {
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+      text-align: center;
+      font-size: x-large;
+    }
+
+    .techPicture {
+      width: 480px;
+      height: 270px;
+    }
+  </style>
+</head>
+
+<body>
+  <% include ../../includes/nav.ejs %>
+  <div class="jumbotron text-center">
+    <div class="container">
+      <h1><%= title %></h1>
+      <p>Please choose type of the product</p>
+    </div>
+
+    <table>
+      <tr>
+        <td>
+          <form action="/vasiukProve03/getLaptops" method="GET">
+          <input class="techPicture" type="image" id="laptops" src="/images/laptops.jpg"> <br><br>
+           Laptops
+          </form>
+        </td>
+        <td style="color:  #0065BD;"> 0000000000000000 </td>
+        <td>
+          <form action="/vasiukProve03/getSmartphones" method="GET">
+          <input class="techPicture" type="image" id="smartphones" src="/images/smartphones.jpg"> <br><br>
+           Smartphones
+          </form>
+        </td>
+      </tr>  
+    </table>  
+
+  </div>
+  <div class="container">
+
+  </div>
+
+
+</body>
+
+</html>
