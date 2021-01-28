@@ -38,6 +38,7 @@ router.get('/getSmartphones',(req, res, next) => {
         path: '/prove03/smartphones', // For pug, EJS 
         activeTA04: true, // For HBS
         contentCSS: true, // For HBS
+        items: jsObject,
     });
     });
 });
