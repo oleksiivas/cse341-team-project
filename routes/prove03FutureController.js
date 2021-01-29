@@ -3,6 +3,7 @@ const express = require('express');
 const router = express.Router();
 const fetch = require('node-fetch');
 const url = "https://byui-cse.github.io/cse341-course/lesson03/items.json";
+const urlLaptops = "";
 
 router.get('/',(req, res, next) => {
     res.render('pages/prove03/prove03MainPage', { 

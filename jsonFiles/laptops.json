@@ -1,0 +1,47 @@
+[
+    {
+        "tags": [
+            "Galaxy"
+          ],
+          "imageUrl": "https://byui-cse.github.io/cse341-course/lesson03/images/1.jpg",
+          "price": 1500.99,
+          "name": "Galaxy Book S",
+          "description": "With Qualcomm hardware this Samsung offers superb battery life and 4G connectivity. But the ARM architecture means app limitations, so be cautious."
+    },
+    {
+        "tags": [
+            "Galaxy"
+          ],
+          "imageUrl": "https://byui-cse.github.io/cse341-course/lesson03/images/1.jpg",
+          "price": 1500.99,
+          "name": "Galaxy Book S",
+          "description": "With Qualcomm hardware this Samsung offers superb battery life and 4G connectivity. But the ARM architecture means app limitations, so be cautious."
+    },
+    {
+        "tags": [
+            "Galaxy"
+          ],
+          "imageUrl": "https://byui-cse.github.io/cse341-course/lesson03/images/1.jpg",
+          "price": 1500.99,
+          "name": "Galaxy Book S",
+          "description": "With Qualcomm hardware this Samsung offers superb battery life and 4G connectivity. But the ARM architecture means app limitations, so be cautious."
+    },
+    {
+        "tags": [
+            "Galaxy"
+          ],
+          "imageUrl": "https://byui-cse.github.io/cse341-course/lesson03/images/1.jpg",
+          "price": 1500.99,
+          "name": "Galaxy Book S",
+          "description": "With Qualcomm hardware this Samsung offers superb battery life and 4G connectivity. But the ARM architecture means app limitations, so be cautious."
+    },
+    {
+        "tags": [
+            "Galaxy"
+          ],
+          "imageUrl": "https://byui-cse.github.io/cse341-course/lesson03/images/1.jpg",
+          "price": 1500.99,
+          "name": "Galaxy Book S",
+          "description": "With Qualcomm hardware this Samsung offers superb battery life and 4G connectivity. But the ARM architecture means app limitations, so be cautious."
+    }
+]
