@@ -17,6 +17,7 @@ const path = require('path');
 const errorController = require('./controllers/errors');
 const PORT = process.env.PORT || 5000 // So we can run on heroku || (OR) localhost:5000
 
+const mongoConnect = require('./util/database');
 const app = express();
 
 // Route setup. You can implement more in the future!
